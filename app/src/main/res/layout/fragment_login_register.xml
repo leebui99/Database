@@ -10,8 +10,28 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/projectName"
-        android:id="@+id/textView"
+        android:id="@+id/projectNam"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="111dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_below="@+id/projectNam"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"/>
 </RelativeLayout>
