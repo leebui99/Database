@@ -1,9 +1,11 @@
-package com.tacoma.uw.leebui99.worldstatistics;
+package com.tacoma.uw.leebui99.worldstatistics.Activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.tacoma.uw.leebui99.worldstatistics.R;
 
 public class MainActivity extends AppCompatActivity {
 
