@@ -20,6 +20,7 @@
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
         android:ems="10"
+        android:hint="@string/email"
         android:id="@+id/editText"
         android:layout_below="@+id/projectNam"
         android:layout_centerHorizontal="true"
